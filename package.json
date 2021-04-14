@@ -1,0 +1,25 @@
+{
+  "name": "cf",
+  "version": "1.0.0",
+  "description": "Contact Form",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Contact",
+    "Form"
+  ],
+  "author": "CyberXplore",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "config": "^3.3.2",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  }
+}
